@@ -1,0 +1,35 @@
+{
+  "name": "console-prefix-plugin",
+  "version": "0.1.0",
+  "description": "A Vite plugin that adds custom prefixes to console.log messages",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "console",
+    "log",
+    "prefix",
+    "debug"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "vite": "^6.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vite": "^6.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/console-prefix-plugin"
+  }
+}
