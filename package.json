@@ -1,6 +1,6 @@
 {
   "name": "console-prefix-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Vite plugin that adds custom prefixes to console.log messages",
   "type": "module",
   "main": "dist/index.js",
