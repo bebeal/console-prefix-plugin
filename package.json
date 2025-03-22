@@ -31,6 +31,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/console-prefix-plugin.git"
+    "url": "git+https://github.com/bebeal/console-prefix-plugin.git"
   }
 }
