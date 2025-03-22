@@ -1,4 +1,4 @@
-import type { Plugin } from 'vite';
+import { Plugin } from 'vite';
 
 // Color map for easy reference
 const COLORS = {
@@ -14,7 +14,7 @@ const COLORS = {
   reset: '\x1b[0m',
 };
 
-export default function consolePrefix(prefix: string, color: string = 'magenta'): Plugin {
+export default function consolePrefix(prefix: string, color: string = 'magenta') {
   let originalConsoleLog: (...args: unknown[]) => void;
 
   // Get color - check if it's a key in our color map, otherwise use as is
@@ -38,5 +38,5 @@ export default function consolePrefix(prefix: string, color: string = 'magenta')
       // Restore the original console.log function
       console.log = originalConsoleLog;
     },
-  };
+  } satisfies Plugin;
 }
