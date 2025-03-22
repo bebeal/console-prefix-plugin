@@ -23,7 +23,7 @@ export default function consolePrefix(prefix: string, color: string = 'magenta')
   };
 
   return {
-    name: 'console-prefix-plugin',
+    name: '@bebeal/console-prefix-plugin',
     apply: 'build',
     configResolved() {
       // Save the original console.log function

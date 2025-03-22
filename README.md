@@ -5,7 +5,7 @@ Adds colored prefixes to console.log messages in Vite builds.
 ## Install
 
 ```bash
-npm install console-prefix-plugin --save-dev
+npm install @bebeal/console-prefix-plugin --save-dev
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install console-prefix-plugin --save-dev
 ```ts
 // vite.config.js
 import { defineConfig } from 'vite'
-import consolePrefix from 'console-prefix-plugin'
+import consolePrefix from '@bebeal/console-prefix-plugin'
 
 export default defineConfig({
   plugins: [
@@ -30,7 +30,7 @@ With named color:
 
 ```ts
 import { defineConfig } from 'vite'
-import consolePrefix from 'console-prefix-plugin'
+import consolePrefix from '@bebeal/console-prefix-plugin'
 
 export default defineConfig({
   plugins: [
@@ -46,7 +46,7 @@ export default defineConfig({
 With raw ANSI color code:
 
 ```ts
-import consolePrefix from 'console-prefix-plugin'
+import consolePrefix from '@bebeal/console-prefix-plugin'
 
 export default {
   plugins: [
