@@ -23,11 +23,11 @@
   "author": "Benjamin Noah Beal (bebeal)",
   "license": "MIT",
   "peerDependencies": {
-    "vite": "^6.2.2"
+    "vite": "^6.2.6"
   },
   "devDependencies": {
     "typescript": "^5.0.0",
-    "vite": "^6.2.2"
+    "vite": "^6.2.6"
   },
   "repository": {
     "type": "git",
