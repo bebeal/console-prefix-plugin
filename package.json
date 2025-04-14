@@ -20,7 +20,7 @@
     "prefix",
     "debug"
   ],
-  "author": "Your Name",
+  "author": "Benjamin Noah Beal (bebeal)",
   "license": "MIT",
   "peerDependencies": {
     "vite": "^6.2.2"
